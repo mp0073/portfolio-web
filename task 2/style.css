@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #626161;
+  background-image: url(./23650.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fffafa;
+}
+
+header {
+  background-color: #757373;
+  color: #f7f3f3;
+  padding: 10px 0;
+}
+
+header .logo {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #f8f5f5;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: rgb(159, 155, 155);
+  border-radius: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Home section css--------------------------------------------------------*/
+#intro {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* About section css ------------------------------------------------------ */
+.about {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 2em;
+}
+
+.about .img-about {
+  text-align: center;
+  position: relative;
+}
+
+.about .img-about img {
+  max-width: 350px;
+  height: auto;
+}
+
+.about-content span {
+  color: #fcfbfb;
+  font-size: 0.8rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.about-content p {
+  color: #f5eded;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+/* Skills section css-------------------------------------------------- */
+#skills ul {
+  list-style: none;
+  color: #fefafa;
+  padding: 0;
+}
+
+#skills ul li {
+  background: #757373;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Projects section css------------------------------------------------- */
+
+.project {
+  border: 1px solid #ed3232;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #757373;
+  color: rgb(247, 241, 241);
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Resume Page Styles */
+#resume {
+  text-align: center;
+}
+
+#resume a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #f8f3f3;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#resume a:hover {
+  background-color: #0056b3;
+}
+
+/* Contact section css --------------------------------------------------------- */
+
+:root {
+  --secon-bg-color: #f2f2f2;
+  --bg-color: #333;
+}
+
+.contact {
+  width: 100%;
+  /* padding: 2rem; */
+}
+
+.contact .main-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact .main-text h2 {
+  font-size: 2rem;
+  color: #fefdfd;
+}
+
+.contact form {
+  text-align: center;
+  max-width: 50rem;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  color: white;
+  background: var(--bg-color);
+  margin-bottom: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.formBtn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.formBtn .btn {
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.formBtn .btn:hover {
+  background-color: #0056b3;
+}
